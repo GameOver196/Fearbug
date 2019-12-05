@@ -1,0 +1,15 @@
+name: Fear
+
+on: [push]
+
+jobs:Hack
+  build:Bug
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/fear1082@gmail.com
+    - name: Virus
+      run: cargo build --verbose
+    - name: Virüs-Hack
+      run: cargo Virus --verbose
